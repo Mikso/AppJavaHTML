@@ -4,6 +4,11 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+<?php
+include 'server/config.php';
+?>
+
 <html>
     <head>
         <!-- Required meta tags -->
@@ -18,21 +23,21 @@ and open the template in the editor.
     </head>
     <body>
        <header class="navbar navbar-expand flex-column flex-md-row bg-dark">
-            <a class="navbar-brand ml-0 mr-3" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand ml-0 mr-3" href="index.php"><img src="img/logo.png"></a>
 
             <div class="navbar-nav-scroll">
                 <ul class="navbar-nav bd-navbar-nav flex-row ml-mr-auto">
                     <li>
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.php">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="servicos.html">Serviços</a>
+                        <a class="nav-link" href="servicos.php">Serviços</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="documentacao.html">Documentação</a>
+                        <a class="nav-link" href="documentacao.php">Documentação</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="downloads.html">Downloads</a>
+                        <a class="nav-link" href="downloads.php">Downloads</a>
                     </li>
                 </ul>
 
@@ -41,7 +46,7 @@ and open the template in the editor.
             
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li>
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="login.php">Login</a>
                 </li>
             </ul>
 

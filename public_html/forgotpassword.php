@@ -4,6 +4,13 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+
+<?php
+
+include 'server/config.php';
+?>
+
 <html>
     <head>
         <!-- Required meta tags -->
@@ -18,37 +25,48 @@ and open the template in the editor.
     </head>
     <body>
         <header class="navbar navbar-expand flex-column flex-md-row bg-dark">
-            <a class="navbar-brand ml-0 mr-3" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand ml-0 mr-3" href="index.php"><img src="img/logo.png"></a>
 
             <div class="navbar-nav-scroll">
                 <ul class="navbar-nav bd-navbar-nav flex-row ml-mr-auto">
                     <li>
-                        <a class="nav-link " href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="servicos.html">Serviços</a>
+                        <a class="nav-link" href="servicos.php">Serviços</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="documentacao.html">Documentação</a>
+                        <a class="nav-link" href="documentacao.php">Documentação</a>
                     </li>
                     <li>
-                        <a class="nav-link active" href="downloads.html">Downloads</a>
+                        <a class="nav-link" href="downloads.php">Downloads</a>
                     </li>
                 </ul>
 
             </div>
 
-            
-            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li>
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link active" href="login.php">Login</a>
                 </li>
             </ul>
 
         </header>
 
+        <div class="container bg-light mt-5 w-25">
+            <form class="pt-3 pb-3">
+                <div class="form-group pt-2">
+                    <label for="lblEmail">Qual email de recuperação ?</label>
+                    <input class="form-control" type="email" id="txtEmail" placeholder="Enter email">
+                </div>
+                
+                <button type="Recuperar" class="btn btn-primary">Enviar</button>
+                 
+            </form>
+            </div>
+        
 
-         <!-- Optional JavaScript -->
+        <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

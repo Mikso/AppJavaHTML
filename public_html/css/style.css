@@ -31,7 +31,7 @@ a.active{
 }
 
 /** Link forgot password */
-a[href="#"] {
+a[href="forgotpassword.php"] {
     font-size: 15px;
 
 }

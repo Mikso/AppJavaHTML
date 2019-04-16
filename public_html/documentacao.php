@@ -4,6 +4,12 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+<?php
+    include 'server/config.php';
+
+?>
+
 <html>
     <head>
         <!-- Required meta tags -->
@@ -16,51 +22,50 @@ and open the template in the editor.
 
         <title>Hello, world!</title>
     </head>
-    <body>
+    <body> 
         <header class="navbar navbar-expand flex-column flex-md-row bg-dark">
-            <a class="navbar-brand ml-0 mr-3" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand ml-0 mr-3" href="index.php"><img src="img/logo.png"></a>
 
             <div class="navbar-nav-scroll">
                 <ul class="navbar-nav bd-navbar-nav flex-row ml-mr-auto">
                     <li>
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="servicos.html">Serviços</a>
+                        <a class="nav-link" href="servicos.php">Serviços</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="documentacao.html">Documentação</a>
+                        <a class="nav-link active" href="documentacao.php">Documentação</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="downloads.html">Downloads</a>
+                        <a class="nav-link" href="downloads.php">Downloads</a>
                     </li>
                 </ul>
 
             </div>
 
-             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li>
-                    <a class="nav-link active" href="login.html">Login</a>
+                    <a class="nav-link" href="login.php">Login</a>
                 </li>
             </ul>
 
         </header>
 
-        <div class="container bg-light mt-5 w-50">
-            <form class="pt-3 pb-3">
-                <div class="form-group pt-2">
-                    <label for="txtEmail">Email</label>
-                    <input class="form-control" type="email" id="txtEmail" placeholder="Enter email">
-                </div>
-                <div class="form-group pt-2">
-                    <label for="txtPass">Password</label>
-                    <input class="form-control" type="password" id="txtPass" placeholder="Enter password">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <p><a href="#">Forgot password ?</a></p> 
-            </form>
-            </div>
-        
+        <div id="fundo">
+        <article class="texto">
+            <h1>Gestão de recursos humanos</h1>
+            <h2>Um desdobramento sobre o assunto</h2>
+            <p class="mt-5">
+                Este tecnólogo cuida da gestão de pessoas dentro de empresas e instituições. Ele desenvolve e gerencia planos de carreira, analisa estratégias institucionais, elabora planos táticos e operacionais de recrutamento, seleção, avaliação, treinamento de pessoal. Participa, ainda, da execução da política salarial da organização. Também planeja programas que visem à melhoria da qualidade de vida dos funcionários no ambiente de trabalho.
+
+                Cabe ao profissional a avaliação da necessidade de novos colaboradores que garantam a viabilidade do processo produtivo da empresa, assim como é sua função realizar o manejo do quadro de funcionários. Para isso, o gestor em RH precisa dominar as técnicas de gerenciamento de pessoas.
+
+            </p>
+        </article>
+    </div>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
