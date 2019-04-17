@@ -51,13 +51,13 @@ and open the template in the editor.
                 </li>
             </ul>
 
-        </header>
+        </header><br>
 
-        <div id="fundo">
-        <article class="texto">
-            <h1>Gestão de recursos humanos</h1>
-            <h2>Um desdobramento sobre o assunto</h2>
-            <p class="mt-5">
+        <div class="container col-12 col-md-10 p-1 ">
+        <article class="container col-10">
+            <h1 class="text-center">Gestão de recursos humanos</h1>
+            <h2 class="text-center">Um desdobramento sobre o assunto</h2>
+            <p class="container col-16 text-justify">
                 Este tecnólogo cuida da gestão de pessoas dentro de empresas e instituições. Ele desenvolve e gerencia planos de carreira, analisa estratégias institucionais, elabora planos táticos e operacionais de recrutamento, seleção, avaliação, treinamento de pessoal. Participa, ainda, da execução da política salarial da organização. Também planeja programas que visem à melhoria da qualidade de vida dos funcionários no ambiente de trabalho.
 
                 Cabe ao profissional a avaliação da necessidade de novos colaboradores que garantam a viabilidade do processo produtivo da empresa, assim como é sua função realizar o manejo do quadro de funcionários. Para isso, o gestor em RH precisa dominar as técnicas de gerenciamento de pessoas.

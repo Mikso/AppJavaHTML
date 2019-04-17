@@ -30,12 +30,25 @@ a.active{
 
 }
 
-/** Link forgot password */
+/** Link do esquecer a senha */
 a[href="forgotpassword.php"] {
     font-size: 15px;
-
+    margin-top: 5px;
+    
+    
+}
+/** Link para criar usuario */
+a[href="createuser.php"] {
+    font-size: 15px;
+    
 }
 
+.Recuperar {
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 8%;
+}
 
 h1 {
     color: black;
@@ -46,14 +59,14 @@ h2{
     color:#545454;
 }
 
-p {
+/** Container do texto apenas */
+.texto {
     font-size: 20px;
-}
-article{
-    background-color: white;
+    margin-top: 5%;
 }
 
-.texto {
+/** Background do artigo */
+.artigo {
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;

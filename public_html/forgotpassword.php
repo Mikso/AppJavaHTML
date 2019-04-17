@@ -53,15 +53,15 @@ include 'server/config.php';
 
         </header>
 
-        <div class="container bg-light mt-5 w-25">
+        <div class="container bg-light mt-5 col-lg-2 col-md-4 col-8">
             <form class="pt-3 pb-3">
                 <div class="form-group pt-2">
                     <label for="lblEmail">Qual email de recuperação ?</label>
                     <input class="form-control" type="email" id="txtEmail" placeholder="Enter email">
                 </div>
-                
-                <button type="Recuperar" class="btn btn-primary">Enviar</button>
-                 
+                <div class="text-center p-1">
+                <button type="Recuperar" class="btn btn-primary w-75">Enviar</button>
+                </div>
             </form>
             </div>
         

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -5,7 +6,6 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <?php
-
 include 'server/config.php';
 ?>
 
@@ -44,7 +44,7 @@ include 'server/config.php';
 
             </div>
 
-             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li>
                     <a class="nav-link active" href="login.php">Login</a>
                 </li>
@@ -52,9 +52,10 @@ include 'server/config.php';
 
         </header>
 
+        <!-- Esta div possui as col de acordo com o tam de cada aparelho -->
         <div class="container bg-light mt-5 col-lg-2 col-md-4 col-8">
-            <form action="../php/findEmail.php" method="post" id="formAction" class="pt-3 pb-3">
-                
+            <form action="../php/insertUser.php" method="post" id="formAction" class="pt-3 pb-3">
+
                 <div class="form-group pt-2">
                     <label for="txtEmail">Email</label>
                     <input class="form-control" type="email" name="txtEmail" id="txtEmail" placeholder="Enter email">
@@ -64,16 +65,14 @@ include 'server/config.php';
                     <input class="form-control" type="password" name="txtPass" id="txtPass" placeholder="Enter password">
                 </div>
                 <div class="col-16 text-center pt-1">
-                <button type="submit" class="btn btn-primary w-75">Entrar</button>
-                </div><br>
-               
+                <button type="submit" class="btn btn-primary w-75">Criar</button>
+                </div>
             </form>
-            </div>
-        
+        </div><br>
+
         <div class="container col-md-3 col-lg-3 col-sm-1 col-8 pl-3">
             <p class="text-center"><a href="forgotpassword.php">Forgot password?</a></p>
-            <p class="text-center"><a href="createuser.php">Sign Up</a></p>
-            
+            <p class="text-center"><a href="login.php">Sign In</a></p>
         </div>
 
         <!-- Optional JavaScript -->

@@ -1,0 +1,7 @@
+// As modificações sendo feitas ou não colocarei aqui
+
+Modificacoes acerca do layout para dispositivos moveis
+Createuser.php - A div de create esta de ficara com o tam de acordo com a tela do aparelho
+Documentacao.php - Recebeu a div correta para dispositivos moveis e desktops
+Login.php
+createuser.php

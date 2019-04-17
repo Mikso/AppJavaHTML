@@ -8,6 +8,13 @@ and open the template in the editor.
 
 <?php
 include '../server/config.php';
+
+session_start();
+if (!isset($_SESSION["email"]) || !isset($_SESSION["password"])) {
+    header("Location: ../index.php");
+} else {
+    // colocar a msg de sessao encerrada e que ira retornar a pag inicial em alguns segundos
+}
 ?>
 
 <html>
@@ -23,7 +30,7 @@ include '../server/config.php';
         <title>Hello, world!</title>
     </head>
     <body>
-       <header class="navbar navbar-expand flex-column flex-md-row bg-dark">
+        <header class="navbar navbar-expand flex-column flex-md-row bg-dark">
             <a class="navbar-brand ml-0 mr-3" href="../index.php"><img src="../img/logo.png"></a>
 
             <div class="navbar-nav-scroll">
@@ -44,7 +51,7 @@ include '../server/config.php';
 
             </div>
 
-            
+
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li>
                     <a class="nav-link" href="../login.php">Login</a>
@@ -52,6 +59,8 @@ include '../server/config.php';
             </ul>
 
         </header>
+
+        <h1>ESTE É O MENU</h1>
 
 
         <!-- Optional JavaScript -->
